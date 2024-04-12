@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+
+h1 {
+    color: #333333;
+}
+
+p {
+    color: #2c3e50;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+ 
+#esq, #dir {
+    display: inline-block;
+    width: 49%;
+}
+
+img#perfil {
+    width: 400px;
+    border-radius: 50%;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+}
